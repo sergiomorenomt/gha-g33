@@ -50,4 +50,13 @@ public class Clase1Test {
         
     }
     
+     @org.junit.jupiter.api.Test
+    public void testSuma2() {
+        
+        Clase1 instance = new Clase1();
+        int expResult = 0;
+        int result = instance.suma(8, 9);
+        assertEquals(3, result);
+        
+    }
 }
