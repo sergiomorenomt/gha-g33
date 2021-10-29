@@ -56,7 +56,7 @@ public class Clase1Test {
         Clase1 instance = new Clase1();
         int expResult = 0;
         int result = instance.suma(8, 9);
-        assertEquals(3, result);
+        assertEquals(17, result);
         
     }
 }
